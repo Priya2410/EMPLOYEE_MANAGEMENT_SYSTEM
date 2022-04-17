@@ -176,8 +176,8 @@ public class showAdmin extends javax.swing.JFrame {
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
 
-        setVisible(false);
-        login object = new login();
+         setVisible(false);
+        loginMain object = new loginMain();
         object.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 

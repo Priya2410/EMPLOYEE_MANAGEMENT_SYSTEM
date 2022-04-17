@@ -14,9 +14,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F2"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Faheem Irfan\Documents\NetBeansProjects\student\project Image\home.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Home"/>
               </Properties>
               <Events>
@@ -27,9 +24,6 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F3"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Faheem Irfan\Documents\NetBeansProjects\student\project Image\logout.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Logout"/>
               </Properties>
@@ -48,9 +42,6 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F1"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Faheem Irfan\Documents\NetBeansProjects\student\project Image\about.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="About"/>
               </Properties>
@@ -181,9 +172,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Faheem Irfan\Documents\NetBeansProjects\student\project Image\submit.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Submit"/>
           </Properties>
           <Events>
@@ -192,9 +180,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Faheem Irfan\Documents\NetBeansProjects\student\project Image\back.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Back"/>
           </Properties>
           <Events>

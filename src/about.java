@@ -150,7 +150,7 @@ public class about extends javax.swing.JFrame {
         // TODO add your handling code here:
 
         setVisible(false);
-        login object = new login();
+        loginMain object = new loginMain();
         object.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 

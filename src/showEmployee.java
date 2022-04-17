@@ -170,7 +170,7 @@ public class showEmployee extends javax.swing.JFrame {
         // TODO add your handling code here:
 
         setVisible(false);
-        home object = new home();
+        loginMain object = new loginMain();
         object.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

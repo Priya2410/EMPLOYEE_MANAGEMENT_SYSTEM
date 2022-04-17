@@ -198,10 +198,6 @@ public class login extends javax.swing.JFrame {
             }
             
         }catch(Exception e){ JOptionPane.showMessageDialog(null,e);}
-        
-        
-        
-        
     }//GEN-LAST:event_loginActionPerformed
 
     private void passwordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordActionPerformed
