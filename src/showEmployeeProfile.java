@@ -15,7 +15,7 @@ import net.proteanit.sql.DbUtils;
  *
  * @author Faheem Irfan
  */
-public class showEmployee extends javax.swing.JFrame {
+public class showEmployeeProfile extends javax.swing.JFrame {
 
     /**
      * Creates new form showStudent
@@ -26,20 +26,19 @@ public class showEmployee extends javax.swing.JFrame {
     ResultSet rs = null;
     int id;
     
-    public showEmployee(int id) {
+    public showEmployeeProfile(int id) {
         super("Show");
-        this.id=id;
         initComponents();
         conn = DatabaseConnection.connection();
-        showRecord();
+        showRecord(id);
     }
     
-    public void showRecord(){
-    
+    public void showRecord(int id){
+        this.id=id;
         try{
             
             stmt = conn.createStatement();
-            String sql = "SELECT * FROM EMPLOYEE";
+            String sql = "SELECT * FROM EMPLOYEE where empid='"+id+"'";
             ResultSet res = stmt.executeQuery(sql);
             jTable1.setModel(DbUtils.resultSetToTableModel(res));
            
@@ -71,7 +70,6 @@ public class showEmployee extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jTable1.setBackground(new java.awt.Color(204, 204, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

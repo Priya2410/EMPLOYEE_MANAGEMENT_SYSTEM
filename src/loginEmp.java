@@ -23,7 +23,8 @@ public class loginEmp extends javax.swing.JFrame {
     Connection conn = null;
     Statement stmt = null;
     ResultSet rs=null;
-    
+    int id;
+  
     public loginEmp() {
         super("Login");
         initComponents();
@@ -171,7 +172,12 @@ public class loginEmp extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//    public void setId(int empid){
+//        id=empid;
+//    }
+//    public int getId(){
+//        return id;
+//    }
     private void empidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_empidActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_empidActionPerformed
@@ -184,7 +190,8 @@ public class loginEmp extends javax.swing.JFrame {
         // TODO add your handling code here:
         try{
             stmt = conn.createStatement();
-            int id=Integer.parseInt(empid.getText());
+            id=Integer.parseInt(empid.getText());
+//            homeEmp home=new homeEmp(id);
             String userEmail = email.getText();
             String userPass = password.getText();
             
@@ -193,8 +200,9 @@ public class loginEmp extends javax.swing.JFrame {
             
             if(rs.next()){
                 setVisible(false);
-                homeEmp object = new homeEmp();
+                homeEmp object = new homeEmp(id);
                 object.setVisible(true);
+//                object.func(id);
                 
             }else{
                 JOptionPane.showMessageDialog(null,"Mail or Password is Invalid");

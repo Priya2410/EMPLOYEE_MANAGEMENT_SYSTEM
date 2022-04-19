@@ -15,7 +15,7 @@ import net.proteanit.sql.DbUtils;
  *
  * @author Faheem Irfan
  */
-public class showEmployee extends javax.swing.JFrame {
+public class showEmployeeAdmin extends javax.swing.JFrame {
 
     /**
      * Creates new form showStudent
@@ -26,9 +26,8 @@ public class showEmployee extends javax.swing.JFrame {
     ResultSet rs = null;
     int id;
     
-    public showEmployee(int id) {
+    public showEmployeeAdmin() {
         super("Show");
-        this.id=id;
         initComponents();
         conn = DatabaseConnection.connection();
         showRecord();
@@ -195,14 +194,14 @@ public class showEmployee extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         setVisible(false);
-        homeEmp object = new homeEmp(id);
+        home object = new home();
         object.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
      */
-    public void main(String args[]) {
+    public static void main(String args[]) {
         
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -231,7 +230,7 @@ public class showEmployee extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new showEmployee(id).setVisible(true);
+                new showEmployeeAdmin().setVisible(true);
             }
         });
     }
