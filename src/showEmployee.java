@@ -13,7 +13,7 @@ import net.proteanit.sql.DbUtils;
 
 /**
  *
- * @author Faheem Irfan
+ * * @author Priya Mohata
  */
 public class showEmployee extends javax.swing.JFrame {
 

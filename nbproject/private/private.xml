@@ -4,21 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Users/apple/Downloads/employee_java/src/homeEmp.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/addAdmin.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/showEmployee.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/display.png</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/configuration.png</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/loginEmp.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/about.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/home.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/showEmployeeProfile.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/admin.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/student.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/login.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/showAdmin.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/showAdmin.png</file>
+            <file>file:/Users/apple/Downloads/employee_java/src/operations.java</file>
             <file>file:/Users/apple/Downloads/employee_java/src/addEmployee.java</file>
-            <file>file:/Users/apple/Downloads/employee_java/src/loginMain.java</file>
+            <file>file:/Users/apple/Downloads/employee_java/src/home.java</file>
+            <file>file:/Users/apple/Downloads/employee_java/src/operationsEmployee.java</file>
         </group>
     </open-files>
 </project-private>

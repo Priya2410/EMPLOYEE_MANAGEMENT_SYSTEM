@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Faheem Irfan
+ * * @author Priya Mohata
  */
 public class home extends javax.swing.JFrame {
 

@@ -1,6 +1,6 @@
 /**
  *
- * @author Faheem Irfan
+ ** @author Priya Mohata
  */
 import java.sql.*;
 import javax.swing.JOptionPane;

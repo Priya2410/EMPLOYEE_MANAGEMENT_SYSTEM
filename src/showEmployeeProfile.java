@@ -13,7 +13,7 @@ import net.proteanit.sql.DbUtils;
 
 /**
  *
- * @author Faheem Irfan
+ * * @author Priya Mohata
  */
 public class showEmployeeProfile extends javax.swing.JFrame {
 
@@ -70,6 +70,7 @@ public class showEmployeeProfile extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
+        jTable1.setBackground(new java.awt.Color(204, 204, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

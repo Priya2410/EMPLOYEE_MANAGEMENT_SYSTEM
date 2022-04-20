@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author apple
+ * * @author Priya Mohata
  */
 public class loginEmp extends javax.swing.JFrame {
 

@@ -5,7 +5,7 @@
 
 /**
  *
- * @author apple
+ * * @author Priya Mohata
  */
 public class loginMain extends javax.swing.JFrame {
 
